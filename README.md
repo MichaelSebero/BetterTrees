@@ -1,6 +1,6 @@
 # BetterTrees
 
-. Dynamic Trees are now thicker and roots are no longer explosion resistant.
+Dynamic Trees are now thicker and roots are no longer explosion resistant.
 
 ### Compiling
 * Clone the repository.
