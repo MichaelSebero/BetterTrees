@@ -158,7 +158,7 @@ public class JoCode {
 		boolean worldGen = safeBounds != SafeChunkBounds.ANY;
 
 		//A Tree generation boundary radius is at least 2 and at most 8
-		radius = MathHelper.clamp(radius, 2, 8);
+		radius = MathHelper.clamp(radius, 4 , 16);
 
 		setFacing(facing);
 		BlockPos rootPos = species.preGeneration(world, rootPosIn, radius, facing, safeBounds, this);

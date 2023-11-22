@@ -1,14 +1,6 @@
-# Dramatic Trees
+# BetterTrees
 
-Minecraft Forge mod providing dynamic trees that progressively grow from seed to maturity.
-
-![Logo](./header.png)
-
-This branch is for the 1.12.2 version of Minecraft.
-
-### Links
-- [Downloads](https://minecraft.curseforge.com/projects/dramatictrees/files)
-- [Discord](https://discord.gg/EeGWgbwwrJ)
+. Dynamic Trees are now thicker and roots are no longer explosion resistant.
 
 ### Compiling
 * Clone the repository.

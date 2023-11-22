@@ -40,7 +40,6 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.RayTraceResult;
-import net.minecraft.world.Explosion;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
@@ -276,11 +275,6 @@ public class BlockRooty extends Block implements ITreePart, ITileEntityProvider,
 
 	@Override
 	public void onBlockHarvested(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
-		destroyTree(world, pos);
-	}
-
-	@Override
-	public void onBlockExploded(World world, BlockPos pos, Explosion explosion) {
 		destroyTree(world, pos);
 	}
 
