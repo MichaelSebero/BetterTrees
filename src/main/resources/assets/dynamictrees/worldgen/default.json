@@ -17,12 +17,19 @@
 		}
 	},
 	{
+		"__comment" : "Oceans have no chance of having trees",
+		"select": { "type": "ocean", "name": "minecraft:.*" },
+		"apply": {
+			"chance": 0.0
+		}
+	},
+	{
 		"__comment" : "Default for a Forest which generates a Birch Tree 1/5 of the time.",
 		"select": { "type": "forest", "name": "minecraft:.*" },
 		"apply": {
 			"species" : {
 				"random" : {
-					"oak" : 24,
+					"oak" : 30,
 					"apple" : 1
 				}
 			}, 
@@ -155,8 +162,7 @@
 		"apply": {
 			"species" : {
 				"random" : {
-					"spruce" : 2,
-					"oak" : 1
+					"spruce" : 1
 				}
 			}
 		}
