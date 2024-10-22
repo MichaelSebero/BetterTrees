@@ -1,4 +1,4 @@
-# BetterTrees
+# Superior Trees
 
 Dynamic Trees are now thicker and roots are no longer explosion resistant.
 
